@@ -9,6 +9,7 @@ Windows Powershell scripts to generate thumbnails for your videos (GenThumbnails
 Notes:
   - My main video folder had videos from multiple sources, not just PlayOn, which is why I went with this approach. If all the recordings in the source folder are PlayOn recordings then the scripts will still work and you could skip the manual review of the thumbnails in between executing the two scripts.
   - The scripts will recurse through subdirectories.
+  - I have only tested these with MP4 videos.
   - It does not look for chapters marked as advertisements.
   - The modified files are intended to be stored in a different directory than the source folder as it uses the same filename.  TrimVideo has not been tested using the same source and destination folder.
   - Requires ffmpeg (and ffprobe) to be installed and its bin directory in your $path to run.
