@@ -8,6 +8,9 @@ $TrimEnd = 0
 #Output format extension
 $OutputFormat = ".mp4"
 
+###################################################################################################################
+# Execution Code
+###################################################################################################################
 
 #Ensure the input directory exists. We can't actually do anything if it doesn't.
 If(!(Test-Path $InputFolder)) {
