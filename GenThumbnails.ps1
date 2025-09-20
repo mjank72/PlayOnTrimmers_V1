@@ -1,5 +1,5 @@
 $StartFolder = "F:\Temp"
-$OutputFolder = "F:\Temp"
+# $OutputFolder = "F:\Temp"
 
 ###################################################################################################################
 # Execution Code
@@ -13,3 +13,4 @@ Foreach ($file in $ListsFiles){
     Write-Host -ForegroundColor Green -Object $ArgumentList;   
     Start-Process -FilePath ffmpeg -ArgumentList $ArgumentList -Wait -NoNewWindow;    
 }
+
